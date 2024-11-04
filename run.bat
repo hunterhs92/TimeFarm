@@ -42,7 +42,7 @@ if not exist proxy.txt (
 
 :loop
 python main.py
-echo Đang khởi động lại chương trình sau 30 giây...
-timeout /t 30 /nobreak >nul
+echo Đang khởi động lại chương trình sau 10 giây...
+timeout /t 10 /nobreak >nul
 goto :loop
 
